@@ -6,7 +6,7 @@ if __name__ == "__main__":
     if i == 1:
         print("{} argument:".format(i))
     elif i == 0:
-        print("{} arguments:".fromat(i))
+        print("{} arguments:".format(i))
     else:
         print("{} arguments:".format(i))
 
