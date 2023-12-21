@@ -1,9 +1,15 @@
 #!/usr/bin/python3
+
+"""Class that defines square by size."""
+
 class Square:
-    """A class that defines square by size
-    """
-    def __init__(self, size):
-        """Initialize the square instance
+    """A class that defines square by size."""
+
+    def __init__(self, size=0):
+        """Initialize the square instance.
+
+        Args:
+            size (int): The size of square.
         """
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
