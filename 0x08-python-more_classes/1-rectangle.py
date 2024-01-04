@@ -1,34 +1,51 @@
 #!/usr/bin/python3
-"""Defines a Rectangle class."""
+"""
+
+This module is composed by a class that defines a Rectangle
+
+
+"""
+
 
 class Rectangle:
-    """A Rectangle class."""
+    """ Class that defines a rectangle """
 
     def __init__(self, width=0, height=0):
-        """Initializes an instance of a Rectangle class.
+        """ Method that initializes the instance
 
         Args:
-            width (int): Width of a rectangel.
-            height (int): height of a rectangle.
+            width: width of the rectangle
+            height: height of the rectangle
+
+
         """
         self.width = width
         self.height = height
 
     @property
     def width(self):
-        """Return width of a rectangle."""
+        """ method that returns the value of the width
+
+        Returns:
+            width of the rectangle
+
+
+        """
+
         return self.__width
 
     @width.setter
     def width(self, value):
-        """Set width of a rectangel.
+        """ method that defines the width
 
         Args:
-            value: width value
+            value: width
 
         Raises:
             TypeError: if width is not an integer
-            ValueError: if width is less than 0
+            ValueError: if width is less than zero
+
+
         """
 
         if not isinstance(value, int):
