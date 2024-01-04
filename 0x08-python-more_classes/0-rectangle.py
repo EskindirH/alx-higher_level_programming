@@ -4,8 +4,6 @@
 """
 
 class Rectangle:
-    """
-        Empty rectangle class.
-    """
+    """Empty rectangle class."""
     pass
 
