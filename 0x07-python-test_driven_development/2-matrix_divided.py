@@ -5,6 +5,7 @@ This module contains a function that divides all elements of a matrix.
 
 """
 
+
 def matrix_divided(matrix, div):
     """ Function that divide elements of matrix.
 
@@ -22,6 +23,7 @@ def matrix_divided(matrix, div):
                    If matrix is not list of lists
                    If row of matrix has differnt size
                    If div is not integer or float
+
 
     """
 
