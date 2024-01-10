@@ -2,7 +2,8 @@
 
 """
 
-This module contains a Squre class that inherits class Rectangle
+This module contains a Squre class
+that inherits class Rectangle
 
 """
 

@@ -2,13 +2,15 @@
 
 """
 
-This module defines a class with integer validator
+This module defines a class base on 6-base_geometry
 
 """
 
 
 class BaseGeometry:
-    def area(self):
+    """ Class that defines the attributes of Geometric Shapes """
+
+   def area(self):
         """ Method not implemented """
         raise Exception("area() is not implemented")
 

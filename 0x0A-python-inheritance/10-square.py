@@ -2,7 +2,8 @@
 
 """
 
-This module defines a square class that inherits a Rectangle class
+This module defines a square class that
+inherits a Rectangle class
 
 """
 
