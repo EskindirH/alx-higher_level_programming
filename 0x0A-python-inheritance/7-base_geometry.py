@@ -10,7 +10,7 @@ This module defines a class BaseGeometry
 class BaseGeometry:
     """ Class that defines the attributes of Geometric Shapes """
 
-   def area(self):
+    def area(self):
         """ Method not implemented """
         raise Exception("area() is not implemented")
 
