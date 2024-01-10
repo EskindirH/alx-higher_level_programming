@@ -3,7 +3,6 @@
 """
 
 This module contains a Rectangle class
-inherited from BaseGeometry
 
 """
 
