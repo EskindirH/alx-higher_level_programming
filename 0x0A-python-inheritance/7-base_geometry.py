@@ -1,4 +1,12 @@
 #!/usr/bin/python3
+
+"""
+
+This module defines a class with integer validator
+
+"""
+
+
 class BaseGeometry:
     def area(self):
         """ Method not implemented """

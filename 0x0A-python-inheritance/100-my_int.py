@@ -1,4 +1,12 @@
 #!/usr/bin/python3
+
+"""
+
+This module contains a rebelion class that invert == and != operators
+
+"""
+
+
 class MyInt(int):
     """ Class that inherits from class int"""
 
