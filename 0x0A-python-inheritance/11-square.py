@@ -3,16 +3,23 @@
 """
 
 This module contains a Squre class
-that inherits class Rectangle
 
 """
 
 Rectangle = __import__('9-rectangle').Rectangle
 
 class Square(Rectangle):
-    """ Class that defines a Square from Rectangle class """
+    """ Class that defines a Square from Rectangle class 
+
+    Args:
+        Rectangle: Base class
+    """
     def __init__(self, size):
-        """ Method that initializes a Square """
+        """ Method that initializes a Square 
+
+        Args:
+            size: width of square
+        """
         self.integer_validator("size", size)
         self.__size = size
         super().__init__(self.__size, self.__size)
