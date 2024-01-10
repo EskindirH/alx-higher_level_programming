@@ -2,9 +2,7 @@
 
 """
 
-This module defines a square class that
-inherits a Rectangle class
-
+This module defines a square class
 """
 
 Rectangle = __import__('9-rectangle').Rectangle
@@ -12,7 +10,11 @@ Rectangle = __import__('9-rectangle').Rectangle
 class Square(Rectangle):
     """ Class Square that inherits from Rectangle class """
     def __init__(self, size):
-        """ Method that initializes a Square """
+        """ Method that initializes a Square 
+
+        Args:
+            size: width of a square
+        """
         self.integer_validator("size", size)
         self.__size = size
         super().__init__(self.__size, self.__size)
