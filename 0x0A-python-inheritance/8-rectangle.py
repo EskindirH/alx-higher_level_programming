@@ -2,7 +2,7 @@
 
 """
 
-This module contains a class Rectangle
+This module contains a class rectangle
 
 """
 
