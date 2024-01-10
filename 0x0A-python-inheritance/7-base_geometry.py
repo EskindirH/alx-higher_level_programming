@@ -2,7 +2,7 @@
 
 """
 
-This module defines a class base on 6-base_geometry
+This module defines a class BaseGeometry
 
 """
 
