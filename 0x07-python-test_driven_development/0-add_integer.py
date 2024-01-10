@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 
-This module contains a function that adds two numbers.
+This module contains function to add numbers.
 
 """
 
