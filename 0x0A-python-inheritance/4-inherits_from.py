@@ -2,8 +2,7 @@
 
 """
 
-This module contains a function that checks
-for obj if it is an instance of a_class
+This module contains function to check obj
 
 """
 
