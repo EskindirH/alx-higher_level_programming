@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 """
 
-This module contains a function that divides all elements of a matrix.
+This module contains a function.
+It divides all elements of a matrix.
 
 """
 
