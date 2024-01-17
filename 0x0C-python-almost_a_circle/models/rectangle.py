@@ -5,13 +5,9 @@ This module contains a class Rectangle
 
 """
 
-from models.base import Base
+from base import Base
 class Rectangle(Base):
-    """Class that inherits clas Base
-
-    Args:
-        Base: parent class
-    """
+    """Class that inherits clas Base"""
 
     def __init__(self, width, height, x=0, y=0, id=None):
         """Initializes instances
@@ -177,7 +173,7 @@ class Rectangle(Base):
             void
         """
 
-        if args is not None and len(args) is not 0:
+        if args is not None and len(args) != 0:
             list_atr = ['id', 'width', 'height', 'x', 'y']
             for i in range(len(args)):
                 setattr(self, list_atr[i], args[i])
