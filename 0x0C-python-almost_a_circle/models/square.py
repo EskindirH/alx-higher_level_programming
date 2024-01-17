@@ -8,11 +8,7 @@ This module contains a class square
 from rectangle import Rectangle
 
 class square(Rectangle):
-    """Square class inherits Rectangle
-
-    Args:
-        Rectangle: parent
-    """
+    """Square class inherits Rectangle"""
 
     def __init__(self, size, x=0, y=0, id=None):
         """Initializes instances
