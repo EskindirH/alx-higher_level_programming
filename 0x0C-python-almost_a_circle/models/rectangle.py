@@ -6,7 +6,7 @@ This module contains a class Rectangle
 """
 
 
-from base import Base
+from models.base import Base
 class Rectangle(Base):
     """Class that inherits base class"""
 
