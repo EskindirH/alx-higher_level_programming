@@ -5,9 +5,10 @@ This module contains a class Rectangle
 
 """
 
+
 from base import Base
 class Rectangle(Base):
-    """Class that inherits clas Base"""
+    """Class that inherits base class"""
 
     def __init__(self, width, height, x=0, y=0, id=None):
         """Initializes instances
