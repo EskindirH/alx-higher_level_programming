@@ -8,7 +8,14 @@ This module contains a class Rectangle
 
 from models.base import Base
 class Rectangle(Base):
-    """Class that inherits base class"""
+    """Class that inherits base class
+
+    Attributes:
+        width: width of rectangle
+        height: height of rectagle
+        x: point x
+        y: point y
+    """
 
     def __init__(self, width, height, x=0, y=0, id=None):
         """Initializes instances

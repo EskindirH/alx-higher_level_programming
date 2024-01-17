@@ -1,16 +1,17 @@
 #!/usr/bin/python3
 """
 
-This module contains a class Base
+This module contains a base class.
 
 """
+
 
 import csv
 import json
 import os.path
 
 class Base:
-    """Class Base base of other class"""
+    """ Class Base base of other class """
 
     __nb_objects = 0
 
