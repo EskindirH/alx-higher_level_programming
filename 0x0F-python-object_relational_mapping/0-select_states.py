@@ -15,7 +15,7 @@ if __name__ == '__main__':
                          db=sys.argv[3], port=3306)
 
     cur = db.cursor()
-    cur.execute("SELECT * FROM states order by states.id asc;")
+    cur.execute("SELECT * FROM states order by states;")
     states = cur.fetchall()
 
     for state in states:
