@@ -1,30 +1,32 @@
 #!/usr/bin/python3
+"""
+This program makes a pascal triangle
+"""
+
+
 def pascal_triangle(n):
-    """ Function that returns the pascal triangle
-
-    Args:
-        n: number of lines
-
-    Returns:
-        matrix: a matrix with the pascal triangle
-
     """
+    Makes a list of lists in representation of a
+    pascal triangle.
+    n: Levels of the triangle
+    Args:
+      - n: int
+    """
+    if (n <= 0):
+        return ([])
+    elif (n == 1):
+        return ([[1]])
+    elif (n == 2):
+        return ([[1], [1, 1]])
 
-    matrix = []
-    prev = []
+    pascal = [[1], [1, 1]]
 
-    for i in range(n):
-        res_list = []
-        p1 = -1
-        p2 = 0
-        for j in range(len(prev) + 1):
-            if p1 == -1 or p2 == len(prev):
-                res_list += [1]
-            else:
-                res_list += [prev[p1] + prev[p2]]
-            p1 += 1
-            p2 += 1
-        matrix.append(res_list)
-        prev = res_list[:]
+    for i in range(1, n - 1):
+        new_list = []
+        new_list.append(1)
+        for j in range(1, len(pascal)):
+            new_list.append(pascal[i][j - 1] + pascal[i][j])
+        new_list.append(1)
+        pascal.append(new_list)
 
-    return matrix
+    return (pascal)
